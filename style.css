@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.links{
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+header
+{
+    color: white;
+    height: 10vh;
+    background-color: rgb(21, 169, 255);
+    font-weight: 900;
+}
+.inline
+{
+    display: inline-block;
+}
+nav p{
+    padding: 18px;
+}
+nav ul{
+    float: right;
+    padding: 18px;
+}
+nav ul li{
+    display: inline-block;
+    margin:0px 25px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: mintcream
+}
+h2{
+    margin-top: 10px;
+    text-align: center;
+}
+.container{
+    margin: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    background-color:rgba(217, 238, 255, 0.918);
+    width: 25vw;
+    height: 50vh;
+}
+img
+{
+    width: 150px;
+    height: 150px;
+
+}
+.table{
+    height: 50vh;
+    width: 50vw;
+    text-align: center;
+}
+th{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+td{
+    align-self: center;
+    text-align: center;
+    padding: 7px;
+    border-bottom: 1px solid black;
+}
+.btn{
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(21, 169, 255);
+}
+.s_user{
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    display: flex;
+    width: 50vw;
+}
+.tform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    margin:5px;
+}
+.item_{
+    margin: 15px;
+    width: 40vw;
+    text-align: center;
+}
+.tbtn{
+    width: 10vw;
+    height: 5vh;
+    margin:20px;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+    padding: auto;
+    background-color: rgb(21, 169, 255);
+}
+.tbtn:hover{
+    border: 2px solid;
+    border-color: rgb(21, 169, 255);
+    background-color: mintcream;
+}
